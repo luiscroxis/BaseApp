@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BWJxfiE+VQJo3YcnmoOEbM2lcoHuQLsFgHUFAgQUpMHoWGf7fJ+7thK8rkdWVJiIzhWjdjEBrvjqre8XgDzLyA==",
+  "dgSpecHash": "aI0BA1Tnx/WjJ3F8IsTLVZ89dhOvuKdWZuZUXmg5geEyqBxhot5Ybr1PlFW7fZjhKKUk6mjtxuEM1kmYYGkJEw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.3\\microsoft.entityframeworkcore.analyzers.8.0.3.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.3\\microsoft.entityframeworkcore.design.8.0.3.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.3\\microsoft.entityframeworkcore.relational.8.0.3.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.3\\microsoft.entityframeworkcore.tools.8.0.3.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
