@@ -3,17 +3,15 @@ namespace BaseApp.Infra.Repository.Orm.Contexts;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-using System.Threading;
-using System.Threading.Tasks;
-using BaseApp.Domain.Entity.Bases;
-using BaseApp.Domain.Repository.Orm.Abstract.Contexts;
+using Domain.Entity.Bases;
+using Domain.Repository.Orm.Abstract.Contexts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 [ExcludeFromCodeCoverage]
-public class DbContext : Microsoft.EntityFrameworkCore.DbContext, IDbContex
+public class DbContext : Microsoft.EntityFrameworkCore.DbContext, IDbContext
 {
-    private Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction _transaction;
-
+    private IDbContextTransaction _transaction;
     public new DbSet<T> Set<T>() where T : BaseEntity => base.Set<T>();
 
     public new EntityState Entry<T>(T entity) where T : BaseEntity =>
@@ -22,7 +20,6 @@ public class DbContext : Microsoft.EntityFrameworkCore.DbContext, IDbContex
     public DbContext()
     {
     }
-
 
     public DbContext(DbContextOptions<DbContext> options) : base(options)
     {
@@ -57,10 +54,7 @@ public class DbContext : Microsoft.EntityFrameworkCore.DbContext, IDbContex
             .ToList();
 
         foreach (var configurationInstance in typesConfiguration.Select(Activator.CreateInstance))
-        {
             modelBuilder.ApplyConfiguration((dynamic)configurationInstance!);
-        }
-
 
         var strings = modelBuilder.Model.GetEntityTypes()
             .SelectMany(t => t.GetProperties())
@@ -72,5 +66,4 @@ public class DbContext : Microsoft.EntityFrameworkCore.DbContext, IDbContex
                 property.SetMaxLength(200);
         }
     }
-
 }

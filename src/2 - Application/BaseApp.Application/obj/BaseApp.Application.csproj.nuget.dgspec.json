@@ -32,6 +32,162 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj",
+        "projectName": "BaseApp.Domain.Service.Abstract",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj",
+        "projectName": "BaseApp.Infra.CrossCuting",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,11 +195,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IZUIKi7095C1IyDkptSLDvGmWhdEz4wD/X8eXiWSZmO3wrQYxc+tzNO8nIKjTxREmuOCg5F/6G8IRI8iC05JmQ==",
+  "dgSpecHash": "72sfzXdSeh9sIcnfe9wfjGfys3GhTsGpLsLJ260CfB4stgIOtTm85lxSpNQRxGncpOKXfBvmnaEpilimLv2cSw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

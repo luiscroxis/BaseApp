@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "dOkUe4Bvbb1E+h3d5luF2MGWkdrQK98iIR0Rcdqh3vU/dBtuLGo7gAWVSkRqeOkmm5oV30GNBeqKqaQmAjf/sA==",
+  "dgSpecHash": "UAyZq9fj4l1wEKDXPkno8EC0RzQZ+2FbrAC2gmBGzpalDHlJqMD0U6rEqZs273HUho0Wz1bcn0duIVRX02VRyQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

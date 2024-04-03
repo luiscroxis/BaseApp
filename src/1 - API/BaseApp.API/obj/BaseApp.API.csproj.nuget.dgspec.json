@@ -32,18 +32,17 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,6 +73,615 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj",
+        "projectName": "BaseApp.Application",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\BaseApp.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\BaseApp.Domain.Entity.csproj",
+        "projectName": "BaseApp.Domain.Entity",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\BaseApp.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj",
+        "projectName": "BaseApp.Domain.Service.Abstract",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\BaseApp.Domain.Service.Abstract.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.2 - Services\\BaseApp.Domain.Service.Abstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj",
+        "projectName": "BaseApp.Domain.Repository.Orm.Abstract",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\BaseApp.Domain.Entity.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.1 - Entities\\BaseApp.Domain.Entity\\BaseApp.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj",
+        "projectName": "BaseApp.Infra.Bootstrap",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj"
+              },
+              "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj"
+              },
+              "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.Uris": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.11, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.11, )"
+            },
+            "Hangfire.PostgreSql": {
+              "target": "Package",
+              "version": "[1.20.8, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MicroElements.Swashbuckle.FluentValidation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NetDevPack.Identity": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0-dev-02122, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0-dev-02122, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj",
+        "projectName": "BaseApp.Infra.CrossCuting",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\BaseApp.Infra.CrossCuting.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.CrossCuting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj",
+        "projectName": "BaseApp.Infra.Repository.Orm",
+        "projectPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\BaseApp.Infra.Repository.Orm.csproj",
+        "packagesPath": "C:\\Users\\luiscroxis\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Repository.Orm\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiscroxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj": {
+                "projectPath": "D:\\Projects\\BaseApp\\src\\3 - Domain\\3.3 - Repositories\\BaseApp.Domain.Repository.Orm.Abstract\\BaseApp.Domain.Repository.Orm.Abstract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

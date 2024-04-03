@@ -1,7 +1,6 @@
 namespace BaseApp.Domain.Repository.Orm.Abstract.UnitOfWork;
 
-using BaseApp.Domain.Repository.Orm.Abstract.Contexts;
-
+using Contexts;
 
 public interface IUnitOfWork : IDisposable
 {
@@ -9,5 +8,5 @@ public interface IUnitOfWork : IDisposable
     void OpenTransaction();
     void Commit();
     void Rollback();
-    void AddContext(IDbContex dataContext);
+    void AddContext(IDbContext dataContext);
 }
