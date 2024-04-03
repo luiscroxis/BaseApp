@@ -1,5 +1,4 @@
 using BaseApp.API.Filters;
-using BaseApp.Infra.Bootstrap.AutoMapper;
 using BaseApp.Infra.Bootstrap.Configuration;
 using BaseApp.Infra.Bootstrap.Database;
 using BaseApp.Infra.Bootstrap.Hangfire;
@@ -12,10 +11,8 @@ using BaseApp.Infra.Bootstrap.Version;
 var applicationName = "BaseApp";
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder
     .Services
-    //.AddCustomAutoMapper()
     .AddCustomMediatR()
     .AddServices()
     .AddRepositories(builder.Configuration)
@@ -24,18 +21,13 @@ builder
     .AddValidation()
     .AddSwaggerApi<RemoveQueryApiVersionParamOperationFilter, RemoveDefaultApiVersionRouteDocumentFilter>(applicationName)
     .AddCustomConfiguration(typeof(ValidatorFilter))
-    .AddCors(options =>
-    {
-        options.AddPolicy(name: "CorsPolicy",
-            policy =>
-            {
-                policy.WithOrigins("*")
+    .AddCors(options => options.AddPolicy(name: "CorsPolicy",
+            policy => policy.WithOrigins("*")
                     .AllowAnyMethod()
-                    .AllowAnyHeader();
-            });
-    });
+                    .AllowAnyHeader()));
 
 var app = builder.Build();
+
 app.UseCors("CorsPolicy");
 app.UseDefaultConfigure(app.Environment, applicationName);
 app.UseHttpsRedirection();
@@ -44,4 +36,5 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();

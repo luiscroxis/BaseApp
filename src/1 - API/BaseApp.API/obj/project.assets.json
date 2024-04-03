@@ -7816,6 +7816,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "BaseApp.Infra.Bootstrap >= 1.0.0",
+      "Mediatr >= 12.2.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -7869,6 +7870,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Mediatr": {
+            "target": "Package",
+            "version": "[12.2.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.2, )"

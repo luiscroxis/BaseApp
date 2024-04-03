@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaseApp.Domain.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91d8846303433dff8c0face88dd1d7028406c10c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0be760f2c1f602aea35c96b497e0122588123a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaseApp.Domain.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaseApp.Domain.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
