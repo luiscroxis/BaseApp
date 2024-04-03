@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7lbkf0WyMJ74AYTvhyiyHIdijQJ5JvRArjYGg6TZk4yBMYTVcgJAMKE+b7UVzCMLc4Iog2gW5MjrnxrJ+8jLtQ==",
+  "dgSpecHash": "TISqyDDGeBCru1wwaKj2B3NZyZwiPpgKKzZ1K5x53/JLYPXFF+rYoQvmiY9P1U5+38OWNGYzDO7pETZbyhDADw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BaseApp\\src\\4 - Infra\\BaseApp.Infra.Bootstrap\\BaseApp.Infra.Bootstrap.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "C:\\Users\\luiscroxis\\.nuget\\packages\\hangfire.core\\1.8.11\\hangfire.core.1.8.11.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\hangfire.netcore\\1.8.11\\hangfire.netcore.1.8.11.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\hangfire.postgresql\\1.20.8\\hangfire.postgresql.1.20.8.nupkg.sha512",
-    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microelements.openapi.fluentvalidation\\6.0.0\\microelements.openapi.fluentvalidation.6.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microelements.swashbuckle.fluentvalidation\\6.0.0\\microelements.swashbuckle.fluentvalidation.6.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
@@ -37,6 +37,7 @@
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.2\\microsoft.aspnetcore.routing.2.2.2.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
@@ -155,26 +156,5 @@
     "C:\\Users\\luiscroxis\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "BaseApp.Infra.Bootstrap depends on Serilog.AspNetCore (>= 4.0.0-dev-02122) but Serilog.AspNetCore 4.0.0-dev-02122 was not found. An approximate best match of Serilog.AspNetCore 4.0.0 was resolved.",
-      "libraryId": "Serilog.AspNetCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

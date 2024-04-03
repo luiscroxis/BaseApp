@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UAyZq9fj4l1wEKDXPkno8EC0RzQZ+2FbrAC2gmBGzpalDHlJqMD0U6rEqZs273HUho0Wz1bcn0duIVRX02VRyQ==",
+  "dgSpecHash": "U3MCYebYpWN5vmvyAcrgNcdSu3DcS9LIKIFnVReQmQo4j92MKZs6igo7Rqcy5pJ7M8+YET3MSk6DEhlTIhFoBQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BaseApp\\src\\2 - Application\\BaseApp.Application\\BaseApp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luiscroxis\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
-    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\luiscroxis\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

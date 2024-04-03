@@ -55,7 +55,7 @@
             },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.0.0, )"
             },
             "MediatR.Contracts": {
               "target": "Package",
@@ -375,11 +375,11 @@
             },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.0.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[11.0.0, )"
             },
             "MicroElements.Swashbuckle.FluentValidation": {
               "target": "Package",
@@ -415,7 +415,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[4.0.0-dev-02122, )"
+              "version": "[4.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
